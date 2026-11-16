@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Accommodation near Victoria Falls, Zimbabwe – Chindara River Lodge</title>
+<meta name="description" content="Standard, family and accessible rooms on the Zambezi River near Victoria Falls. Work out your full stay cost including levies.">
+<link rel="canonical" href="https://www.example.com/stay.html">
+<meta property="og:title" content="Accommodation near Victoria Falls, Zimbabwe – Chindara River Lodge">
+<meta property="og:description" content="Standard, family and accessible rooms on the Zambezi River near Victoria Falls. Work out your full stay cost including levies.">
+<link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+<a class="skip" href="#main">Skip to main content</a>
+<header><div class="bar"><a class="brand" href="index.html">Chindara River Lodge</a>
+<button id="menu-btn" aria-expanded="false" aria-controls="menu">Menu</button></div>
+<nav aria-label="Main"><ul id="menu"><li><a href="index.html">Home</a></li><li><a href="stay.html" aria-current="page">Stay</a></li><li><a href="experiences.html">Experiences</a></li><li><a href="contact.html">Contact</a></li></ul></nav></header>
+<main id="main">
+<h1>Rooms and prices</h1>
+<section class="grid three">
+ <article class="card"><img src="images/room.svg" alt="Placeholder illustration of a standard double room" width="600" height="340"><div class="body"><h2>Standard double</h2><p>Sleeps 2. River-facing windows, private bathroom. 10 rooms.</p><p class="price">From US$118 per night</p></div></article>
+ <article class="card"><img src="images/room.svg" alt="Placeholder illustration of a family room" width="600" height="340"><div class="body"><h2>Family room</h2><p>Sleeps up to 4 with extra beds. 6 rooms.</p><p class="price">From US$160 per night*</p></div></article>
+ <article class="card"><img src="images/room.svg" alt="Placeholder illustration of an accessible room" width="600" height="340"><div class="body"><h2>Accessible room</h2><p>Step-free entrance and wider bathroom door. 2 rooms. Details below.</p><p class="price">From US$125 per night*</p></div></article>
+</section>
+<p class="note">*Family and accessible rates are placeholder values for this prototype.</p>
+<section class="panel"><h2 id="estimator-h">Work out your full stay cost</h2>
+<form id="estimator" aria-labelledby="estimator-h">
+ <label for="room">Room type</label><select id="room"><option value="standard">Standard double</option><option value="family">Family room</option><option value="accessible">Accessible room</option></select>
+ <label for="nights">Nights</label><input id="nights" type="number" min="1" step="1" value="3" inputmode="numeric">
+ <label for="guests">Guests</label><input id="guests" type="number" min="1" step="1" value="2" inputmode="numeric">
+ <div class="check"><input id="park" type="checkbox"><label for="park">Include Victoria Falls park fees</label></div>
+ <button class="btn" type="submit">Calculate total</button>
+ <div id="result" aria-live="polite"></div>
+</form>
+<p class="note">Levy and park-fee rates are placeholders until management confirms the approved amounts.</p></section>
+<section id="access"><h2>Accessibility information</h2>
+<p>Placeholder text for the real site: the lodge must measure and confirm each item before publishing.</p>
+<ul><li>Path from car park to reception: surface, width and gradient to be measured.</li><li>Accessible room entrance: step-free (to be confirmed).</li><li>Bathroom: door width, shower type and grab rails to be confirmed.</li></ul>
+<p>Questions? <a href="contact.html">Contact us</a> before you travel.</p></section>
+</main>
+<footer><div class="foot"><p>Chindara River Lodge &amp; Tours, 8 km upstream from Victoria Falls, Zimbabwe.</p>
+<p>Follow us: <a href="https://www.instagram.com/ChindaraRiverLodge">@ChindaraRiverLodge</a> (handle to be checked for availability before registering)</p>
+<p class="note" style="color:#bcd0cb">Prototype for MTIC503. Placeholder images and rates. No real payments or personal data.</p></div></footer>
+<script src="js/script.js"></script>
+</body>
+</html>
